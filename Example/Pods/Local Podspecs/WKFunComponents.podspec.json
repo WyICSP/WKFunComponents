@@ -1,0 +1,22 @@
+{
+  "name": "WKFunComponents",
+  "version": "0.1.0",
+  "summary": "WKFunComponents功能组件",
+  "description": "WKFunComponents是云智充合作版的功能组件的集合",
+  "homepage": "https://github.com/WyICSP/WKFunComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wyxlh": "wy_wangyu163@163.com"
+  },
+  "source": {
+    "git": "https://github.com/WyICSP/WKFunComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WKFunComponents/Classes/**/*"
+}

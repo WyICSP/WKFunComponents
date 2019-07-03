@@ -1,0 +1,16 @@
+PODS:
+  - WKFunComponents (0.1.0)
+
+DEPENDENCIES:
+  - WKFunComponents (from `../`)
+
+EXTERNAL SOURCES:
+  WKFunComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKFunComponents: 5707702f11f8481a457d6d4c435e3e0c475d5015
+
+PODFILE CHECKSUM: 44b3d6c12b5ff2721f9cca344891550b75a270a8
+
+COCOAPODS: 1.7.3
