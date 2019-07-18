@@ -28,8 +28,8 @@
     
     if(self)
     {
-        // 添加keyboardview
-        self.frame = CGRectMake(0, 0, SYS_DEVICE_WIDTH, 216);
+        // 添加keyboardview 
+        self.frame = CGRectMake(0, 0, SYS_DEVICE_WIDTH, 236);
         [[NSBundle bundleForClass:[self class]] loadNibNamed:@"RYNumberKeyboard" owner:self options:nil];
         self.keyboardView.frame = self.frame;
         [self addSubview:self.keyboardView];

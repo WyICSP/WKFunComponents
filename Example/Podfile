@@ -1,10 +1,11 @@
-use_frameworks!
+
 
 platform :ios, '9.0'
 
 target 'WKFunComponents_Example' do
+  use_frameworks!
   pod 'WKFunComponents', :path => '../'
-
+  
   target 'WKFunComponents_Tests' do
     inherit! :search_paths
 
