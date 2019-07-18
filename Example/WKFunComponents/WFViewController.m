@@ -7,9 +7,11 @@
 //
 
 #import "WFViewController.h"
+#import "UITextField+RYNumberKeyboard.h"
 
 @interface WFViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 @end
 
 @implementation WFViewController
@@ -17,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.textField setMoneyKeyboard];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,4 +29,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)textField:(id)sender {
+}
 @end

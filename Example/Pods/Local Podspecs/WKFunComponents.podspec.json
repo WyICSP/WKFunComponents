@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "WKFunComponents/Classes/**/*"
+  "source_files": "WKFunComponents/Classes/**/*",
+  "resource_bundles": {
+    "WKFunComponents": [
+      "WKFunComponents/Assets/*.png"
+    ]
+  }
 }

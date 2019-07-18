@@ -32,9 +32,9 @@ WKFunComponents是云智充合作版的功能组件的集合
 
   s.source_files = 'WKFunComponents/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WKFunComponents' => ['WKFunComponents/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'WKFunComponents' => ['WKFunComponents/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
