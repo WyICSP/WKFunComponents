@@ -14,6 +14,7 @@
 #import "NSTimer+addition.h"
 #import "YukiWebProgressLayer.h"
 #import "YukiWebViewController.h"
+#import "WFHorseRaceLamp.h"
 #import "RYNumberKeyboard.h"
 #import "UITextField+RYNumberKeyboard.h"
 #import "TitleScrollHelper.h"

@@ -1,5 +1,5 @@
 PODS:
-  - WKFunComponents (0.1.0)
+  - WKFunComponents (0.1.1)
 
 DEPENDENCIES:
   - WKFunComponents (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WKFunComponents: da30ec4e90346d71e20b220c4387e3236affdb47
+  WKFunComponents: 7a6b08e5910c97965ce66dc11fb01e0d7004dd82
 
 PODFILE CHECKSUM: 22c97c108788d8124366dc6216a6615aeb6fd842
 

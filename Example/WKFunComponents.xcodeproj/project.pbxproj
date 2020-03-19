@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A15B2C8D42BD1769DFC2228 /* Pods_WKFunComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA7CFA1705774D9B0AA9207 /* Pods_WKFunComponents_Example.framework */; };
+		04275D10ADBD69033BCE683F /* Pods_WKFunComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B01E190AC7F4BB0AC1CE42 /* Pods_WKFunComponents_Example.framework */; };
+		3457E64383E3449BC33EB03E /* Pods_WKFunComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB677F400BE392A589008C37 /* Pods_WKFunComponents_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8A3327FD40E77CB6524BD3FA /* Pods_WKFunComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66603C948843D94BFD2AB749 /* Pods_WKFunComponents_Tests.framework */; };
+		882ABE15241611C2000D0B27 /* WFTitleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882ABE14241611C2000D0B27 /* WFTitleBaseViewController.m */; };
+		882ABE21241614D3000D0B27 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882ABE1D241614D3000D0B27 /* TitleScrollView.m */; };
+		882ABE22241614D3000D0B27 /* TitleScrollHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 882ABE20241614D3000D0B27 /* TitleScrollHelper.m */; };
+		882ABE2524161A31000D0B27 /* WFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882ABE2424161A31000D0B27 /* WFWebViewController.m */; };
+		88AAB4AF2423472100275063 /* WFHorseRaceLamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AAB4AE2423472100275063 /* WFHorseRaceLamp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CA7CFA1705774D9B0AA9207 /* Pods_WKFunComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKFunComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9FA7BB50CAC6AE328ED402 /* Pods-WKFunComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFunComponents_Example.debug.xcconfig"; path = "Target Support Files/Pods-WKFunComponents_Example/Pods-WKFunComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		562A385FF9EBDF2EEB3EA947 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WKFunComponents_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFunComponents_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,12 +63,23 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66603C948843D94BFD2AB749 /* Pods_WKFunComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKFunComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B01E190AC7F4BB0AC1CE42 /* Pods_WKFunComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKFunComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882ABE13241611C2000D0B27 /* WFTitleBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFTitleBaseViewController.h; sourceTree = "<group>"; };
+		882ABE14241611C2000D0B27 /* WFTitleBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFTitleBaseViewController.m; sourceTree = "<group>"; };
+		882ABE1D241614D3000D0B27 /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		882ABE1E241614D3000D0B27 /* TitleScrollHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollHelper.h; sourceTree = "<group>"; };
+		882ABE1F241614D3000D0B27 /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		882ABE20241614D3000D0B27 /* TitleScrollHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollHelper.m; sourceTree = "<group>"; };
+		882ABE2324161A31000D0B27 /* WFWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFWebViewController.h; sourceTree = "<group>"; };
+		882ABE2424161A31000D0B27 /* WFWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFWebViewController.m; sourceTree = "<group>"; };
+		88AAB4AD2423472100275063 /* WFHorseRaceLamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFHorseRaceLamp.h; sourceTree = "<group>"; };
+		88AAB4AE2423472100275063 /* WFHorseRaceLamp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFHorseRaceLamp.m; sourceTree = "<group>"; };
 		9E4B23A6E20032B504DDE98C /* Pods-WKFunComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFunComponents_Tests.release.xcconfig"; path = "Target Support Files/Pods-WKFunComponents_Tests/Pods-WKFunComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A1931931C895453BDB564FA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A750007019E17FA5B83EBD38 /* WKFunComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WKFunComponents.podspec; path = ../WKFunComponents.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB677F400BE392A589008C37 /* Pods_WKFunComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKFunComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B14A86B0F54000D201540E /* Pods-WKFunComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFunComponents_Example.release.xcconfig"; path = "Target Support Files/Pods-WKFunComponents_Example/Pods-WKFunComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FC021978D47E64DAB59BC227 /* Pods-WKFunComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFunComponents_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WKFunComponents_Tests/Pods-WKFunComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +92,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1A15B2C8D42BD1769DFC2228 /* Pods_WKFunComponents_Example.framework in Frameworks */,
+				04275D10ADBD69033BCE683F /* Pods_WKFunComponents_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +103,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8A3327FD40E77CB6524BD3FA /* Pods_WKFunComponents_Tests.framework in Frameworks */,
+				3457E64383E3449BC33EB03E /* Pods_WKFunComponents_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +149,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0CA7CFA1705774D9B0AA9207 /* Pods_WKFunComponents_Example.framework */,
-				66603C948843D94BFD2AB749 /* Pods_WKFunComponents_Tests.framework */,
+				63B01E190AC7F4BB0AC1CE42 /* Pods_WKFunComponents_Example.framework */,
+				BB677F400BE392A589008C37 /* Pods_WKFunComponents_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +158,7 @@
 		6003F593195388D20070C39A /* Example for WKFunComponents */ = {
 			isa = PBXGroup;
 			children = (
+				88AAB4AC2423470400275063 /* HorseRaceLamp */,
 				6003F59C195388D20070C39A /* WFAppDelegate.h */,
 				6003F59D195388D20070C39A /* WFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -151,6 +167,10 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				882ABE13241611C2000D0B27 /* WFTitleBaseViewController.h */,
+				882ABE14241611C2000D0B27 /* WFTitleBaseViewController.m */,
+				882ABE2324161A31000D0B27 /* WFWebViewController.h */,
+				882ABE2424161A31000D0B27 /* WFWebViewController.m */,
 			);
 			name = "Example for WKFunComponents";
 			path = WKFunComponents;
@@ -159,6 +179,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				882ABE162416149C000D0B27 /* TitleScorller */,
 				6003F595195388D20070C39A /* WKFunComponents-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -196,6 +217,27 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		882ABE162416149C000D0B27 /* TitleScorller */ = {
+			isa = PBXGroup;
+			children = (
+				882ABE1E241614D3000D0B27 /* TitleScrollHelper.h */,
+				882ABE20241614D3000D0B27 /* TitleScrollHelper.m */,
+				882ABE1F241614D3000D0B27 /* TitleScrollView.h */,
+				882ABE1D241614D3000D0B27 /* TitleScrollView.m */,
+			);
+			name = TitleScorller;
+			path = ../../WKFunComponents/Classes/TitleScorller;
+			sourceTree = "<group>";
+		};
+		88AAB4AC2423470400275063 /* HorseRaceLamp */ = {
+			isa = PBXGroup;
+			children = (
+				88AAB4AD2423472100275063 /* WFHorseRaceLamp.h */,
+				88AAB4AE2423472100275063 /* WFHorseRaceLamp.m */,
+			);
+			path = HorseRaceLamp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,7 +249,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7C18E559F3815F61D5F1F77D /* [CP] Embed Pods Frameworks */,
+				6CB34BDDDA1E489393B49995 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,7 +359,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C18E559F3815F61D5F1F77D /* [CP] Embed Pods Frameworks */ = {
+		6CB34BDDDA1E489393B49995 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,9 +406,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882ABE21241614D3000D0B27 /* TitleScrollView.m in Sources */,
+				882ABE22241614D3000D0B27 /* TitleScrollHelper.m in Sources */,
 				6003F59E195388D20070C39A /* WFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				882ABE2524161A31000D0B27 /* WFWebViewController.m in Sources */,
+				882ABE15241611C2000D0B27 /* WFTitleBaseViewController.m in Sources */,
+				88AAB4AF2423472100275063 /* WFHorseRaceLamp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

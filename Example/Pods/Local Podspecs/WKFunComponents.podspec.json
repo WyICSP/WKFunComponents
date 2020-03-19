@@ -1,6 +1,6 @@
 {
   "name": "WKFunComponents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "WKFunComponents功能组件",
   "description": "WKFunComponents是云智充合作版的功能组件的集合",
   "homepage": "https://github.com/WyICSP/WKFunComponents",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WyICSP/WKFunComponents.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

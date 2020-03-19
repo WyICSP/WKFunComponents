@@ -7,37 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED8B5F1026CD18424B539D956CCD749 /* deleteLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6034A47A3FE09F0CA4B5794446BA81B7 /* deleteLogo@3x.png */; };
-		1398BC17C95BB83428669E6CC3D21683 /* TitleScrollHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D11CBECA66713214898DE8F823486131 /* TitleScrollHelper.m */; };
+		079DC36DEB594A7647E3D87F8CB85D66 /* RYNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1ED9D6D95073968C5289B15129B606 /* RYNumberKeyboard.m */; };
+		10307C9B45BD5BEA487A1C95EB9593D3 /* TitleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A47E8A9505A9180E9516764EFDD0C84 /* TitleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10BB43D0D85FF68B17E5EE2C210C80EE /* RYNumberKeyboard.xib in Sources */ = {isa = PBXBuildFile; fileRef = CA7CFD5A4067D3962A3A12EFA7C47D19 /* RYNumberKeyboard.xib */; };
+		10E0E579EC469E806B7AADA70336C716 /* YukiWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB774D0C4237BF2B51AF6EC4B42A298 /* YukiWebProgressLayer.m */; };
 		161239CDF81F61B86925ED5C2365F995 /* Pods-WKFunComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F80D37485CCD6C804F71BC09C8B9F52E /* Pods-WKFunComponents_Tests-dummy.m */; };
-		1BFD43F20F942CED70AFA1529BF0D7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		295F1BE1B35F36F75EAD9C67023642BC /* YukiWebProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 259E45C3D2D23DFF57459F09E4C261F5 /* YukiWebProgressLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C8A49A3DA2054A89449D007782BDC2 /* NSTimer+addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2661676FA6B83626F50D0AE548E5154E /* NSTimer+addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29E40DE11E2D53CE1718EC0559BE6755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2E8FF2AF939ADBDFF3530C3F87FB31E7 /* deleteLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A77D6AA03452630BAF26C5B0BD48D30 /* deleteLogo@2x.png */; };
-		3E0BE1AAD4190F8E03D2D1B3BE5C1DF9 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = FA15B431C4B84524EF001040A98A0E31 /* NSTimer+addition.m */; };
-		3FE187809EE71ACED50588F98B29245A /* TitleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEB76FF5A6D0865BE253D65EA8AE6E1 /* TitleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B77BF42A40C463C05711A942813180C /* WKFunComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8FE16A91AFA66A66FDC58A0AACF4CA /* WKFunComponents-dummy.m */; };
+		2F077B3799132EDB68603C3507505D29 /* WKFunComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB15DA7A9268FC81F3828E9EC5DCCD6 /* WKFunComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205D0D0531DE1F01E30E5A460C5D584 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F06FF65F8FBF701BFF035601DC249D /* NSTimer+addition.m */; };
+		34AF6C28F50A33946C90F82A387DA70A /* UITextField+RYNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7704D3E48DE4E165CE17FD6352CA2661 /* UITextField+RYNumberKeyboard.m */; };
 		41CEAD0B24336B5550F6E544D4F15B81 /* Pods-WKFunComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 069C0B4B31E7F7BFBE8BEEB866A144CC /* Pods-WKFunComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43A0C26605EC773BCACDBB88D01334C9 /* dissKeyborad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7B1EB132C291F77C599FA45AABCD54 /* dissKeyborad@2x.png */; };
-		5AFEBD083208B4C0C0EBA08186A0A9A8 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E341428CAEFB7397F4F7220F884B11 /* TitleScrollView.m */; };
-		65001B6A00026BBCA077B75649E07EA0 /* YFAddCartAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5670005CF9EAA35DE34E5489C2D96CB5 /* YFAddCartAnimationTool.m */; };
-		7115CC472F4F206E2999FB6FD6CB5C47 /* dissKeyborad@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33CE52012E958EDB5464B6437121A55 /* dissKeyborad@3x.png */; };
-		7242A15AF42582DC76A294B80F5AAC88 /* UITextField+RYNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD3245BB1231B2D8742DCF92566190C /* UITextField+RYNumberKeyboard.m */; };
+		5733908BDC4302256D1C2C4ED1A659BA /* deleteLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12EA20B6390EC1514E0D1162D6BA225 /* deleteLogo@3x.png */; };
+		59999BB8C2380C1FE2A84012B0572F9F /* UITextField+RYNumberKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D132B128C3026EDA6CCC7AFBC08D6E0 /* UITextField+RYNumberKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		859904FCE7BEAE8364DBDE042644F75D /* Pods-WKFunComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF7D8F85B3C5C5F5AE0F08A50EDD8A8 /* Pods-WKFunComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F05B2866A010065279FB039638DD754 /* UITextField+RYNumberKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BC059B92D77E92920F64D9DFE78205 /* UITextField+RYNumberKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9183DA3F720F5F8739788715C0C47D05 /* YukiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77F53BE491596FE0EA0ECC73D153812 /* YukiWebViewController.m */; };
+		8CC580D874AEF8AD687BDCB451730B0A /* YFAddCartAnimationTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FD14382082E9DCA5221BEC4BEAFF3957 /* YFAddCartAnimationTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2392910D71A383E35BD892F0C8389E /* dissKeyborad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6ACD72CE625F6BDAA3EA8DFA15FB663 /* dissKeyborad@2x.png */; };
+		8F40BE7B3590C4F1A0E1AC3ADDDD6792 /* YFAddCartAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5782784946AF4C5AB88C30BB1A0035 /* YFAddCartAnimationTool.m */; };
+		90FF26BD9BBE4D6F6461A19C13983AC5 /* YukiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739550689F457E7712EF14CAD0947511 /* YukiWebViewController.m */; };
+		94D2043E72EBD6CDAD95A9801BF880D4 /* WFHorseRaceLamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF65F021ED0C98EDC2BE2A3B47BFA9 /* WFHorseRaceLamp.m */; };
 		95AD113FC45ACA5FC3A450D95AE7D33C /* Pods-WKFunComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E8E37501A80A066E5185AA13978F5 /* Pods-WKFunComponents_Example-dummy.m */; };
-		996E710B8053D15BC127036B7A70DAFD /* RYNumberKeyboard.xib in Sources */ = {isa = PBXBuildFile; fileRef = F0158355973E2A97B28C30339E612DED /* RYNumberKeyboard.xib */; };
-		A4C8C87D08CE5681B109D33B4D964FA2 /* RYNumberKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B216D4F96CA17A6C6B03D2F777EF47 /* RYNumberKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6C4345CE7D60FDC9226FC7B3729E5DE /* WKFunComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A23E731C998A58B3B8AC98FCA27D4E11 /* WKFunComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6EEBB81D4B25880FED4C3D140324536 /* YukiWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE605CD51D8EBA09BCB8EDF49BAF79E /* YukiWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF59E1F22F06A812F9C89168BFBEA704 /* TitleScrollHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 735A3F62F676B19E74B27FAD2527AB7D /* TitleScrollHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B481F094CA3DB5D5B6890EFFDC4AE1A2 /* NSTimer+addition.h in Headers */ = {isa = PBXBuildFile; fileRef = C85F3531E0210654747772093272F102 /* NSTimer+addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB08515FB0E279A2DD12EC83B3AE0EAF /* RYNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8812D49EE5F33F6818E20555CD5A01CC /* RYNumberKeyboard.m */; };
-		CCFA4D3D15BF29CAF1A9B55C718B0267 /* WKFunComponents.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23191565C177C4842731386B0808024C /* WKFunComponents.bundle */; };
-		D124DF9DD95178B4951A53C084DE53CD /* YukiWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E67EBDE3A9E86DF5ACC8250271BF /* YukiWebProgressLayer.m */; };
-		EE8293433369F53AF45CDC1DA8A263DE /* YFAddCartAnimationTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6128F9C797AA2D0E344A47E1946FF70D /* YFAddCartAnimationTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973996AB553DAA5EBE6142FA5F35E2D4 /* RYNumberKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = A4900E752E51E2C6B56E92A102AF310D /* RYNumberKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A04B432B866EBD1075AF7D55C932D289 /* YukiWebProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 927363EF5DA1FEB81BA60CD2439FF83B /* YukiWebProgressLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7132B9FFF477F0E034835A12ED74BB0 /* TitleScrollHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39328F527DB09CD50CCD8A9A9A91877B /* TitleScrollHelper.m */; };
+		B76B4287A36B422EA2A05D61BE4AB758 /* dissKeyborad@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8928A316FB02D262D24FE5FCC908294 /* dissKeyborad@3x.png */; };
+		BCEC3D319070C6DD9E94408E9E5ED8EB /* deleteLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B7220D1D531DB5E90904B1045BFB88 /* deleteLogo@2x.png */; };
+		C3589B7AAF8ACD632713203446F38687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C39904FDB05425B04635C843950FD3B5 /* YukiWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF15FB2F01E1858D493D86CF6F4E0EFF /* YukiWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCA447D90090CAE218673036FD690DE /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0DF99F3E21CFEED0FD1F380202CB1 /* TitleScrollView.m */; };
+		CE74C3C192669E159A04ED0B0C3DA36B /* WKFunComponents.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23191565C177C4842731386B0808024C /* WKFunComponents.bundle */; };
+		E2F3EE58EE5C45E7623F2E15B230E62E /* TitleScrollHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D76B11DFB71253ABC9D8214F99690B /* TitleScrollHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2F5768DA5B3EA754A14274419002EF8 /* WFHorseRaceLamp.h in Headers */ = {isa = PBXBuildFile; fileRef = A95270B4FF0237F7D33BF9C5217E188F /* WFHorseRaceLamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F463796349654940636E4F3CC5C9BBE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FE5269B81DDDAA6E7F4C63CBF92C87DB /* WKFunComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6689A3BD1BC9ABDB4FFCBC5DBA03F520 /* WKFunComponents-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,7 @@
 			remoteGlobalIDString = 7FD246F4BE573076F5C2D4A953AC7A8A;
 			remoteInfo = "Pods-WKFunComponents_Example";
 		};
-		59EF8B8D0BB6DEF4C80543AC98B58B2C /* PBXContainerItemProxy */ = {
+		583023D98AD9B2BA14E013C806A86268 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -65,71 +67,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E73554B2F33A67DDE0309D36937388 /* ResourceBundle-WKFunComponents-WKFunComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WKFunComponents-WKFunComponents-Info.plist"; sourceTree = "<group>"; };
 		069C0B4B31E7F7BFBE8BEEB866A144CC /* Pods-WKFunComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKFunComponents_Example-umbrella.h"; sourceTree = "<group>"; };
-		0FC36FBB0DA3526AC69464C7D808C851 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0CA0DF99F3E21CFEED0FD1F380202CB1 /* TitleScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		16D76B11DFB71253ABC9D8214F99690B /* TitleScrollHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitleScrollHelper.h; sourceTree = "<group>"; };
 		19F8BDC394FE7DC8A71D78804A6FFAB4 /* Pods-WKFunComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKFunComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1AEB76FF5A6D0865BE253D65EA8AE6E1 /* TitleScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
-		2160B22F568B8852E54D73199886E903 /* WKFunComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKFunComponents.xcconfig; sourceTree = "<group>"; };
 		23191565C177C4842731386B0808024C /* WKFunComponents.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WKFunComponents.bundle; path = "WKFunComponents-WKFunComponents.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		259E45C3D2D23DFF57459F09E4C261F5 /* YukiWebProgressLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YukiWebProgressLayer.h; sourceTree = "<group>"; };
-		28E341428CAEFB7397F4F7220F884B11 /* TitleScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
-		2A7B1EB132C291F77C599FA45AABCD54 /* dissKeyborad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dissKeyborad@2x.png"; path = "WKFunComponents/Assets/dissKeyborad@2x.png"; sourceTree = "<group>"; };
+		2661676FA6B83626F50D0AE548E5154E /* NSTimer+addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
 		2D91795E00DACAF043CC537D25706C5F /* Pods_WKFunComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKFunComponents_Example.framework; path = "Pods-WKFunComponents_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34B216D4F96CA17A6C6B03D2F777EF47 /* RYNumberKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYNumberKeyboard.h; sourceTree = "<group>"; };
+		32FFF341F6C49F6F8F4EC0FB63BEE313 /* WKFunComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKFunComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		34C20F62DE8E68EBA070EA7578E45CF2 /* Pods-WKFunComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKFunComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39328F527DB09CD50CCD8A9A9A91877B /* TitleScrollHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitleScrollHelper.m; sourceTree = "<group>"; };
+		3A47E8A9505A9180E9516764EFDD0C84 /* TitleScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		3B8FE16A91AFA66A66FDC58A0AACF4CA /* WKFunComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKFunComponents-dummy.m"; sourceTree = "<group>"; };
 		427A6EC6BD1EF447478E386112949619 /* Pods-WKFunComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKFunComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AB15DA7A9268FC81F3828E9EC5DCCD6 /* WKFunComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKFunComponents-umbrella.h"; sourceTree = "<group>"; };
+		50F06FF65F8FBF701BFF035601DC249D /* NSTimer+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
 		52F25947EEFF8B5D09D0E0DE1622AF5A /* Pods-WKFunComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKFunComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		54F453D777BA110325D5563C3F076DD8 /* Pods_WKFunComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKFunComponents_Tests.framework; path = "Pods-WKFunComponents_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5670005CF9EAA35DE34E5489C2D96CB5 /* YFAddCartAnimationTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFAddCartAnimationTool.m; sourceTree = "<group>"; };
-		5A77D6AA03452630BAF26C5B0BD48D30 /* deleteLogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deleteLogo@2x.png"; path = "WKFunComponents/Assets/deleteLogo@2x.png"; sourceTree = "<group>"; };
-		6034A47A3FE09F0CA4B5794446BA81B7 /* deleteLogo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deleteLogo@3x.png"; path = "WKFunComponents/Assets/deleteLogo@3x.png"; sourceTree = "<group>"; };
-		6128F9C797AA2D0E344A47E1946FF70D /* YFAddCartAnimationTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAddCartAnimationTool.h; sourceTree = "<group>"; };
-		6689A3BD1BC9ABDB4FFCBC5DBA03F520 /* WKFunComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKFunComponents-dummy.m"; sourceTree = "<group>"; };
-		6DC63C0994B2539DBF5F2B83A21A12D4 /* WKFunComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKFunComponents.modulemap; sourceTree = "<group>"; };
-		735A3F62F676B19E74B27FAD2527AB7D /* TitleScrollHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitleScrollHelper.h; sourceTree = "<group>"; };
+		593B59850C473E584AD61DD9853D1CB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5D132B128C3026EDA6CCC7AFBC08D6E0 /* UITextField+RYNumberKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+RYNumberKeyboard.h"; sourceTree = "<group>"; };
+		6F1ED9D6D95073968C5289B15129B606 /* RYNumberKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYNumberKeyboard.m; sourceTree = "<group>"; };
+		71CF65F021ED0C98EDC2BE2A3B47BFA9 /* WFHorseRaceLamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFHorseRaceLamp.m; sourceTree = "<group>"; };
+		739550689F457E7712EF14CAD0947511 /* YukiWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YukiWebViewController.m; sourceTree = "<group>"; };
 		74CC50F88D976B8C017CD759C9683850 /* Pods-WKFunComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKFunComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
-		79C725262EC4EB2A5BAB9BA4C86C0D12 /* WKFunComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKFunComponents-Info.plist"; sourceTree = "<group>"; };
+		7704D3E48DE4E165CE17FD6352CA2661 /* UITextField+RYNumberKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RYNumberKeyboard.m"; sourceTree = "<group>"; };
+		7DB774D0C4237BF2B51AF6EC4B42A298 /* YukiWebProgressLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YukiWebProgressLayer.m; sourceTree = "<group>"; };
 		84194FF74C02AD35949E1623C28CAAD5 /* WKFunComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKFunComponents.framework; path = WKFunComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84BC059B92D77E92920F64D9DFE78205 /* UITextField+RYNumberKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+RYNumberKeyboard.h"; sourceTree = "<group>"; };
-		8812D49EE5F33F6818E20555CD5A01CC /* RYNumberKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RYNumberKeyboard.m; sourceTree = "<group>"; };
+		8510EB5B265629A983AB83E8131A7119 /* WKFunComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKFunComponents.modulemap; sourceTree = "<group>"; };
+		927363EF5DA1FEB81BA60CD2439FF83B /* YukiWebProgressLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YukiWebProgressLayer.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A23E731C998A58B3B8AC98FCA27D4E11 /* WKFunComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKFunComponents-umbrella.h"; sourceTree = "<group>"; };
-		A2DF8A0CDE786B9E7D4E9D3DC6272704 /* WKFunComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKFunComponents-prefix.pch"; sourceTree = "<group>"; };
+		A4900E752E51E2C6B56E92A102AF310D /* RYNumberKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RYNumberKeyboard.h; sourceTree = "<group>"; };
 		A59B656F24DEE3FD4BE06312818E44EF /* Pods-WKFunComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKFunComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A6F143B2D129924A6BC4BDA3B908CDE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A6ACD72CE625F6BDAA3EA8DFA15FB663 /* dissKeyborad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dissKeyborad@2x.png"; path = "WKFunComponents/Assets/dissKeyborad@2x.png"; sourceTree = "<group>"; };
+		A95270B4FF0237F7D33BF9C5217E188F /* WFHorseRaceLamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFHorseRaceLamp.h; sourceTree = "<group>"; };
 		AB8DDE3BBF9B1AC0E737B200D13B17DF /* Pods-WKFunComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKFunComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC484B65F6F236877E399A59C78D4E47 /* WKFunComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKFunComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADDE93744C9780AB15D8EE9EE430DDBC /* Pods-WKFunComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKFunComponents_Tests.modulemap"; sourceTree = "<group>"; };
-		B5B8FE93F1D4F53D863A2B95FDCC96A1 /* ResourceBundle-WKFunComponents-WKFunComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WKFunComponents-WKFunComponents-Info.plist"; sourceTree = "<group>"; };
-		C85F3531E0210654747772093272F102 /* NSTimer+addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		AEB1966A67880025B1EFA5B50EE62F16 /* WKFunComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKFunComponents-prefix.pch"; sourceTree = "<group>"; };
+		B12EA20B6390EC1514E0D1162D6BA225 /* deleteLogo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deleteLogo@3x.png"; path = "WKFunComponents/Assets/deleteLogo@3x.png"; sourceTree = "<group>"; };
+		BF15FB2F01E1858D493D86CF6F4E0EFF /* YukiWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YukiWebViewController.h; sourceTree = "<group>"; };
+		C8EF9DC788DE4A84F9FE84ABDB2FC45F /* WKFunComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKFunComponents.xcconfig; sourceTree = "<group>"; };
+		C9B7220D1D531DB5E90904B1045BFB88 /* deleteLogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deleteLogo@2x.png"; path = "WKFunComponents/Assets/deleteLogo@2x.png"; sourceTree = "<group>"; };
+		CA7CFD5A4067D3962A3A12EFA7C47D19 /* RYNumberKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RYNumberKeyboard.xib; sourceTree = "<group>"; };
 		CCABF404394ABBAE976354D0EBE2FAE0 /* Pods-WKFunComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKFunComponents_Example.modulemap"; sourceTree = "<group>"; };
+		CD5782784946AF4C5AB88C30BB1A0035 /* YFAddCartAnimationTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFAddCartAnimationTool.m; sourceTree = "<group>"; };
 		CF2ACD0E5E0B247069F2B75B24260B16 /* Pods-WKFunComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKFunComponents_Example-Info.plist"; sourceTree = "<group>"; };
-		D11CBECA66713214898DE8F823486131 /* TitleScrollHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitleScrollHelper.m; sourceTree = "<group>"; };
-		D33CE52012E958EDB5464B6437121A55 /* dissKeyborad@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dissKeyborad@3x.png"; path = "WKFunComponents/Assets/dissKeyborad@3x.png"; sourceTree = "<group>"; };
-		D77F53BE491596FE0EA0ECC73D153812 /* YukiWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YukiWebViewController.m; sourceTree = "<group>"; };
+		D4900C13D37A5456300AEE0459BA0069 /* WKFunComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKFunComponents-Info.plist"; sourceTree = "<group>"; };
 		E22CFAD059FD3E475038B6EE57E0F074 /* Pods-WKFunComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKFunComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E248AE673F863CC27C5D8B1D9CA72194 /* Pods-WKFunComponents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKFunComponents_Tests-Info.plist"; sourceTree = "<group>"; };
+		E57C9D7606B220A48E48D1D0D2DE2007 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8928A316FB02D262D24FE5FCC908294 /* dissKeyborad@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dissKeyborad@3x.png"; path = "WKFunComponents/Assets/dissKeyborad@3x.png"; sourceTree = "<group>"; };
 		EDF7D8F85B3C5C5F5AE0F08A50EDD8A8 /* Pods-WKFunComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKFunComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F0158355973E2A97B28C30339E612DED /* RYNumberKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RYNumberKeyboard.xib; sourceTree = "<group>"; };
-		F1E5E67EBDE3A9E86DF5ACC8250271BF /* YukiWebProgressLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YukiWebProgressLayer.m; sourceTree = "<group>"; };
 		F22B15262AB586C798AAD73EB9EE21C9 /* Pods-WKFunComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKFunComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F27E8E37501A80A066E5185AA13978F5 /* Pods-WKFunComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKFunComponents_Example-dummy.m"; sourceTree = "<group>"; };
 		F80D37485CCD6C804F71BC09C8B9F52E /* Pods-WKFunComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKFunComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		FA15B431C4B84524EF001040A98A0E31 /* NSTimer+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
-		FBD3245BB1231B2D8742DCF92566190C /* UITextField+RYNumberKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RYNumberKeyboard.m"; sourceTree = "<group>"; };
-		FCE605CD51D8EBA09BCB8EDF49BAF79E /* YukiWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YukiWebViewController.h; sourceTree = "<group>"; };
+		FD14382082E9DCA5221BEC4BEAFF3957 /* YFAddCartAnimationTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAddCartAnimationTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34DC82668064E05056F06FF1556B2DE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BFD43F20F942CED70AFA1529BF0D7B7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3659F99DDE6D4AB698FEDC958444A874 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,10 +142,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D1E33B484DFDBFB97C57E567C962C0 /* Frameworks */ = {
+		C30223E926489237FCBD645C47B2F037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA178781D181EA4A5A37FDE19F573C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3589B7AAF8ACD632713203446F38687 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,91 +185,44 @@
 			path = "Target Support Files/Pods-WKFunComponents_Tests";
 			sourceTree = "<group>";
 		};
-		22E7A14680E320CD67A40EC41D45F469 /* Pod */ = {
+		3952C6F20390BC6B67468E4275C44C37 /* KeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				0FC36FBB0DA3526AC69464C7D808C851 /* LICENSE */,
-				A6F143B2D129924A6BC4BDA3B908CDE7 /* README.md */,
-				AC484B65F6F236877E399A59C78D4E47 /* WKFunComponents.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3443FF181F5C8529CA4DD24668A584B2 /* BaseWebView */ = {
-			isa = PBXGroup;
-			children = (
-				C85F3531E0210654747772093272F102 /* NSTimer+addition.h */,
-				FA15B431C4B84524EF001040A98A0E31 /* NSTimer+addition.m */,
-				259E45C3D2D23DFF57459F09E4C261F5 /* YukiWebProgressLayer.h */,
-				F1E5E67EBDE3A9E86DF5ACC8250271BF /* YukiWebProgressLayer.m */,
-				FCE605CD51D8EBA09BCB8EDF49BAF79E /* YukiWebViewController.h */,
-				D77F53BE491596FE0EA0ECC73D153812 /* YukiWebViewController.m */,
-			);
-			name = BaseWebView;
-			path = WKFunComponents/Classes/BaseWebView;
-			sourceTree = "<group>";
-		};
-		44CCA34F16EAE57F77536DFFED526304 /* KeyBoard */ = {
-			isa = PBXGroup;
-			children = (
-				34B216D4F96CA17A6C6B03D2F777EF47 /* RYNumberKeyboard.h */,
-				8812D49EE5F33F6818E20555CD5A01CC /* RYNumberKeyboard.m */,
-				F0158355973E2A97B28C30339E612DED /* RYNumberKeyboard.xib */,
-				84BC059B92D77E92920F64D9DFE78205 /* UITextField+RYNumberKeyboard.h */,
-				FBD3245BB1231B2D8742DCF92566190C /* UITextField+RYNumberKeyboard.m */,
+				A4900E752E51E2C6B56E92A102AF310D /* RYNumberKeyboard.h */,
+				6F1ED9D6D95073968C5289B15129B606 /* RYNumberKeyboard.m */,
+				CA7CFD5A4067D3962A3A12EFA7C47D19 /* RYNumberKeyboard.xib */,
+				5D132B128C3026EDA6CCC7AFBC08D6E0 /* UITextField+RYNumberKeyboard.h */,
+				7704D3E48DE4E165CE17FD6352CA2661 /* UITextField+RYNumberKeyboard.m */,
 			);
 			name = KeyBoard;
 			path = WKFunComponents/Classes/KeyBoard;
 			sourceTree = "<group>";
 		};
-		53BD1A71FFC7E6DE22CF158F264FDE1A /* Support Files */ = {
+		3BEC54364FB5B337EBAEE79AB07063FD /* HorseRaceLamp */ = {
 			isa = PBXGroup;
 			children = (
-				B5B8FE93F1D4F53D863A2B95FDCC96A1 /* ResourceBundle-WKFunComponents-WKFunComponents-Info.plist */,
-				6DC63C0994B2539DBF5F2B83A21A12D4 /* WKFunComponents.modulemap */,
-				2160B22F568B8852E54D73199886E903 /* WKFunComponents.xcconfig */,
-				6689A3BD1BC9ABDB4FFCBC5DBA03F520 /* WKFunComponents-dummy.m */,
-				79C725262EC4EB2A5BAB9BA4C86C0D12 /* WKFunComponents-Info.plist */,
-				A2DF8A0CDE786B9E7D4E9D3DC6272704 /* WKFunComponents-prefix.pch */,
-				A23E731C998A58B3B8AC98FCA27D4E11 /* WKFunComponents-umbrella.h */,
+				A95270B4FF0237F7D33BF9C5217E188F /* WFHorseRaceLamp.h */,
+				71CF65F021ED0C98EDC2BE2A3B47BFA9 /* WFHorseRaceLamp.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WKFunComponents";
+			name = HorseRaceLamp;
+			path = WKFunComponents/Classes/HorseRaceLamp;
 			sourceTree = "<group>";
 		};
-		6FC59211EC3C9343F81CE49031AA0E96 /* Resources */ = {
+		4947759C2E42E4769E48D80AF79877D4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A77D6AA03452630BAF26C5B0BD48D30 /* deleteLogo@2x.png */,
-				6034A47A3FE09F0CA4B5794446BA81B7 /* deleteLogo@3x.png */,
-				2A7B1EB132C291F77C599FA45AABCD54 /* dissKeyborad@2x.png */,
-				D33CE52012E958EDB5464B6437121A55 /* dissKeyborad@3x.png */,
+				BC9504056B06BFF73AD438B97121E9F1 /* WKFunComponents */,
 			);
-			name = Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		73FC6FF7D722CAA5D9E527C37DCEF033 /* WKFunComponents */ = {
+		5613147E6CFD18E521D8374114971B52 /* TitleScorller */ = {
 			isa = PBXGroup;
 			children = (
-				F46086430929B0E3A3B2891ABAC836B6 /* AddCartAnimation */,
-				3443FF181F5C8529CA4DD24668A584B2 /* BaseWebView */,
-				44CCA34F16EAE57F77536DFFED526304 /* KeyBoard */,
-				22E7A14680E320CD67A40EC41D45F469 /* Pod */,
-				6FC59211EC3C9343F81CE49031AA0E96 /* Resources */,
-				53BD1A71FFC7E6DE22CF158F264FDE1A /* Support Files */,
-				8AA691A37BABBE861DC5BDD27A579461 /* TitleScorller */,
-			);
-			name = WKFunComponents;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8AA691A37BABBE861DC5BDD27A579461 /* TitleScorller */ = {
-			isa = PBXGroup;
-			children = (
-				735A3F62F676B19E74B27FAD2527AB7D /* TitleScrollHelper.h */,
-				D11CBECA66713214898DE8F823486131 /* TitleScrollHelper.m */,
-				1AEB76FF5A6D0865BE253D65EA8AE6E1 /* TitleScrollView.h */,
-				28E341428CAEFB7397F4F7220F884B11 /* TitleScrollView.m */,
+				16D76B11DFB71253ABC9D8214F99690B /* TitleScrollHelper.h */,
+				39328F527DB09CD50CCD8A9A9A91877B /* TitleScrollHelper.m */,
+				3A47E8A9505A9180E9516764EFDD0C84 /* TitleScrollView.h */,
+				0CA0DF99F3E21CFEED0FD1F380202CB1 /* TitleScrollView.m */,
 			);
 			name = TitleScorller;
 			path = WKFunComponents/Classes/TitleScorller;
@@ -282,6 +239,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BC9504056B06BFF73AD438B97121E9F1 /* WKFunComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F97C62390B61A34F36A8098DE5F5CD1A /* AddCartAnimation */,
+				E23AC2ADC1536B5785D11FE3E5F42049 /* BaseWebView */,
+				3BEC54364FB5B337EBAEE79AB07063FD /* HorseRaceLamp */,
+				3952C6F20390BC6B67468E4275C44C37 /* KeyBoard */,
+				EFDD3AE43C255EDC32DB0FAEE9607E49 /* Pod */,
+				C4B74779114B097CA4D98F09B00C3351 /* Resources */,
+				BD12BB1078E142C89F4F62F1AC8CC7C0 /* Support Files */,
+				5613147E6CFD18E521D8374114971B52 /* TitleScorller */,
+			);
+			name = WKFunComponents;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BD12BB1078E142C89F4F62F1AC8CC7C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E73554B2F33A67DDE0309D36937388 /* ResourceBundle-WKFunComponents-WKFunComponents-Info.plist */,
+				8510EB5B265629A983AB83E8131A7119 /* WKFunComponents.modulemap */,
+				C8EF9DC788DE4A84F9FE84ABDB2FC45F /* WKFunComponents.xcconfig */,
+				3B8FE16A91AFA66A66FDC58A0AACF4CA /* WKFunComponents-dummy.m */,
+				D4900C13D37A5456300AEE0459BA0069 /* WKFunComponents-Info.plist */,
+				AEB1966A67880025B1EFA5B50EE62F16 /* WKFunComponents-prefix.pch */,
+				4AB15DA7A9268FC81F3828E9EC5DCCD6 /* WKFunComponents-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKFunComponents";
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,23 +278,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C4B74779114B097CA4D98F09B00C3351 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9B7220D1D531DB5E90904B1045BFB88 /* deleteLogo@2x.png */,
+				B12EA20B6390EC1514E0D1162D6BA225 /* deleteLogo@3x.png */,
+				A6ACD72CE625F6BDAA3EA8DFA15FB663 /* dissKeyborad@2x.png */,
+				E8928A316FB02D262D24FE5FCC908294 /* dissKeyborad@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D05C8B04A4E326315D28209749253B88 /* Development Pods */,
+				4947759C2E42E4769E48D80AF79877D4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				923137B162854F092297D85A34FFCD3A /* Products */,
 				04C61D68357EFB6298B6CD87953BC88D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D05C8B04A4E326315D28209749253B88 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				73FC6FF7D722CAA5D9E527C37DCEF033 /* WKFunComponents */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -317,14 +308,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F46086430929B0E3A3B2891ABAC836B6 /* AddCartAnimation */ = {
+		E23AC2ADC1536B5785D11FE3E5F42049 /* BaseWebView */ = {
 			isa = PBXGroup;
 			children = (
-				6128F9C797AA2D0E344A47E1946FF70D /* YFAddCartAnimationTool.h */,
-				5670005CF9EAA35DE34E5489C2D96CB5 /* YFAddCartAnimationTool.m */,
+				2661676FA6B83626F50D0AE548E5154E /* NSTimer+addition.h */,
+				50F06FF65F8FBF701BFF035601DC249D /* NSTimer+addition.m */,
+				927363EF5DA1FEB81BA60CD2439FF83B /* YukiWebProgressLayer.h */,
+				7DB774D0C4237BF2B51AF6EC4B42A298 /* YukiWebProgressLayer.m */,
+				BF15FB2F01E1858D493D86CF6F4E0EFF /* YukiWebViewController.h */,
+				739550689F457E7712EF14CAD0947511 /* YukiWebViewController.m */,
 			);
-			name = AddCartAnimation;
-			path = WKFunComponents/Classes/AddCartAnimation;
+			name = BaseWebView;
+			path = WKFunComponents/Classes/BaseWebView;
+			sourceTree = "<group>";
+		};
+		EFDD3AE43C255EDC32DB0FAEE9607E49 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E57C9D7606B220A48E48D1D0D2DE2007 /* LICENSE */,
+				593B59850C473E584AD61DD9853D1CB3 /* README.md */,
+				32FFF341F6C49F6F8F4EC0FB63BEE313 /* WKFunComponents.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F58EC1C025746C88C7AFBAFD351BEDA3 /* Pods-WKFunComponents_Example */ = {
@@ -342,6 +347,16 @@
 			);
 			name = "Pods-WKFunComponents_Example";
 			path = "Target Support Files/Pods-WKFunComponents_Example";
+			sourceTree = "<group>";
+		};
+		F97C62390B61A34F36A8098DE5F5CD1A /* AddCartAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD14382082E9DCA5221BEC4BEAFF3957 /* YFAddCartAnimationTool.h */,
+				CD5782784946AF4C5AB88C30BB1A0035 /* YFAddCartAnimationTool.m */,
+			);
+			name = AddCartAnimation;
+			path = WKFunComponents/Classes/AddCartAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,19 +378,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F32BABBFD5A696D045924C0D5A317488 /* Headers */ = {
+		C8FA30E3381DBD9BE1C51FE6B1AFAED5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B481F094CA3DB5D5B6890EFFDC4AE1A2 /* NSTimer+addition.h in Headers */,
-				A4C8C87D08CE5681B109D33B4D964FA2 /* RYNumberKeyboard.h in Headers */,
-				AF59E1F22F06A812F9C89168BFBEA704 /* TitleScrollHelper.h in Headers */,
-				3FE187809EE71ACED50588F98B29245A /* TitleScrollView.h in Headers */,
-				8F05B2866A010065279FB039638DD754 /* UITextField+RYNumberKeyboard.h in Headers */,
-				A6C4345CE7D60FDC9226FC7B3729E5DE /* WKFunComponents-umbrella.h in Headers */,
-				EE8293433369F53AF45CDC1DA8A263DE /* YFAddCartAnimationTool.h in Headers */,
-				295F1BE1B35F36F75EAD9C67023642BC /* YukiWebProgressLayer.h in Headers */,
-				A6EEBB81D4B25880FED4C3D140324536 /* YukiWebViewController.h in Headers */,
+				21C8A49A3DA2054A89449D007782BDC2 /* NSTimer+addition.h in Headers */,
+				973996AB553DAA5EBE6142FA5F35E2D4 /* RYNumberKeyboard.h in Headers */,
+				E2F3EE58EE5C45E7623F2E15B230E62E /* TitleScrollHelper.h in Headers */,
+				10307C9B45BD5BEA487A1C95EB9593D3 /* TitleScrollView.h in Headers */,
+				59999BB8C2380C1FE2A84012B0572F9F /* UITextField+RYNumberKeyboard.h in Headers */,
+				F2F5768DA5B3EA754A14274419002EF8 /* WFHorseRaceLamp.h in Headers */,
+				2F077B3799132EDB68603C3507505D29 /* WKFunComponents-umbrella.h in Headers */,
+				8CC580D874AEF8AD687BDCB451730B0A /* YFAddCartAnimationTool.h in Headers */,
+				A04B432B866EBD1075AF7D55C932D289 /* YukiWebProgressLayer.h in Headers */,
+				C39904FDB05425B04635C843950FD3B5 /* YukiWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +400,11 @@
 /* Begin PBXNativeTarget section */
 		0D81DD0D6B3569AA18F92B9C660ED5D1 /* WKFunComponents-WKFunComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F46591A841BE21012A3009677181B82F /* Build configuration list for PBXNativeTarget "WKFunComponents-WKFunComponents" */;
+			buildConfigurationList = AC869F83C62430A3CDC4B8CF1DC3D00A /* Build configuration list for PBXNativeTarget "WKFunComponents-WKFunComponents" */;
 			buildPhases = (
-				FC46E71F768BC482C051C34C6C685CF8 /* Sources */,
-				F3D1E33B484DFDBFB97C57E567C962C0 /* Frameworks */,
-				7E5E769F3D2CB7FF1D0B536E337729F9 /* Resources */,
+				0BCCE254A24FF5D081134641DAE7E905 /* Sources */,
+				C30223E926489237FCBD645C47B2F037 /* Frameworks */,
+				6AC9E75E6D6F8932B5182CBA6778ECB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -401,17 +417,17 @@
 		};
 		7502508057D4C5B0CDDE6DA5E872AA03 /* WKFunComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A822DD9CDCA1DAF8184258CCCC60551 /* Build configuration list for PBXNativeTarget "WKFunComponents" */;
+			buildConfigurationList = 4AA9D4AB5AAA35615206600B8EE50C12 /* Build configuration list for PBXNativeTarget "WKFunComponents" */;
 			buildPhases = (
-				F32BABBFD5A696D045924C0D5A317488 /* Headers */,
-				7CBE46CCF3CC3C1CD95E9A7D1F3640D0 /* Sources */,
-				34DC82668064E05056F06FF1556B2DE1 /* Frameworks */,
-				E64805245BAAAADA8586632D7D6ED9A8 /* Resources */,
+				C8FA30E3381DBD9BE1C51FE6B1AFAED5 /* Headers */,
+				87898273A598C3254E7E4E0A84AD7A54 /* Sources */,
+				CA178781D181EA4A5A37FDE19F573C37 /* Frameworks */,
+				DE10D8486562AD3D8352A0D0E8716F7A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				955560E846D9B3D9524AFE7CB7E57632 /* PBXTargetDependency */,
+				AF353ED5E2F07A95C1D1BECCE94CAF6E /* PBXTargetDependency */,
 			);
 			name = WKFunComponents;
 			productName = WKFunComponents;
@@ -493,6 +509,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6AC9E75E6D6F8932B5182CBA6778ECB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEC3D319070C6DD9E94408E9E5ED8EB /* deleteLogo@2x.png in Resources */,
+				5733908BDC4302256D1C2C4ED1A659BA /* deleteLogo@3x.png in Resources */,
+				8F2392910D71A383E35BD892F0C8389E /* dissKeyborad@2x.png in Resources */,
+				B76B4287A36B422EA2A05D61BE4AB758 /* dissKeyborad@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		726DBF645DA3D427BA7A1038FF9F57BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,28 +527,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E5E769F3D2CB7FF1D0B536E337729F9 /* Resources */ = {
+		DE10D8486562AD3D8352A0D0E8716F7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E8FF2AF939ADBDFF3530C3F87FB31E7 /* deleteLogo@2x.png in Resources */,
-				0ED8B5F1026CD18424B539D956CCD749 /* deleteLogo@3x.png in Resources */,
-				43A0C26605EC773BCACDBB88D01334C9 /* dissKeyborad@2x.png in Resources */,
-				7115CC472F4F206E2999FB6FD6CB5C47 /* dissKeyborad@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E64805245BAAAADA8586632D7D6ED9A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCFA4D3D15BF29CAF1A9B55C718B0267 /* WKFunComponents.bundle in Resources */,
+				CE74C3C192669E159A04ED0B0C3DA36B /* WKFunComponents.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0BCCE254A24FF5D081134641DAE7E905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		278A00230D82DE0848E58C6BB004E947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -530,20 +553,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CBE46CCF3CC3C1CD95E9A7D1F3640D0 /* Sources */ = {
+		87898273A598C3254E7E4E0A84AD7A54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0BE1AAD4190F8E03D2D1B3BE5C1DF9 /* NSTimer+addition.m in Sources */,
-				BB08515FB0E279A2DD12EC83B3AE0EAF /* RYNumberKeyboard.m in Sources */,
-				996E710B8053D15BC127036B7A70DAFD /* RYNumberKeyboard.xib in Sources */,
-				1398BC17C95BB83428669E6CC3D21683 /* TitleScrollHelper.m in Sources */,
-				5AFEBD083208B4C0C0EBA08186A0A9A8 /* TitleScrollView.m in Sources */,
-				7242A15AF42582DC76A294B80F5AAC88 /* UITextField+RYNumberKeyboard.m in Sources */,
-				FE5269B81DDDAA6E7F4C63CBF92C87DB /* WKFunComponents-dummy.m in Sources */,
-				65001B6A00026BBCA077B75649E07EA0 /* YFAddCartAnimationTool.m in Sources */,
-				D124DF9DD95178B4951A53C084DE53CD /* YukiWebProgressLayer.m in Sources */,
-				9183DA3F720F5F8739788715C0C47D05 /* YukiWebViewController.m in Sources */,
+				3205D0D0531DE1F01E30E5A460C5D584 /* NSTimer+addition.m in Sources */,
+				079DC36DEB594A7647E3D87F8CB85D66 /* RYNumberKeyboard.m in Sources */,
+				10BB43D0D85FF68B17E5EE2C210C80EE /* RYNumberKeyboard.xib in Sources */,
+				B7132B9FFF477F0E034835A12ED74BB0 /* TitleScrollHelper.m in Sources */,
+				CDCA447D90090CAE218673036FD690DE /* TitleScrollView.m in Sources */,
+				34AF6C28F50A33946C90F82A387DA70A /* UITextField+RYNumberKeyboard.m in Sources */,
+				94D2043E72EBD6CDAD95A9801BF880D4 /* WFHorseRaceLamp.m in Sources */,
+				2B77BF42A40C463C05711A942813180C /* WKFunComponents-dummy.m in Sources */,
+				8F40BE7B3590C4F1A0E1AC3ADDDD6792 /* YFAddCartAnimationTool.m in Sources */,
+				10E0E579EC469E806B7AADA70336C716 /* YukiWebProgressLayer.m in Sources */,
+				90FF26BD9BBE4D6F6461A19C13983AC5 /* YukiWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,21 +579,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC46E71F768BC482C051C34C6C685CF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		955560E846D9B3D9524AFE7CB7E57632 /* PBXTargetDependency */ = {
+		AF353ED5E2F07A95C1D1BECCE94CAF6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "WKFunComponents-WKFunComponents";
 			target = 0D81DD0D6B3569AA18F92B9C660ED5D1 /* WKFunComponents-WKFunComponents */;
-			targetProxy = 59EF8B8D0BB6DEF4C80543AC98B58B2C /* PBXContainerItemProxy */;
+			targetProxy = 583023D98AD9B2BA14E013C806A86268 /* PBXContainerItemProxy */;
 		};
 		B65BD011357BA871735392AB5268435E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -586,38 +603,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A23B0DF27B1F8D12A3D94147275C146 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2160B22F568B8852E54D73199886E903 /* WKFunComponents.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WKFunComponents/WKFunComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WKFunComponents/WKFunComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WKFunComponents/WKFunComponents.modulemap";
-				PRODUCT_MODULE_NAME = WKFunComponents;
-				PRODUCT_NAME = WKFunComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5056ABC35C347D3BBFE25463542ADEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34C20F62DE8E68EBA070EA7578E45CF2 /* Pods-WKFunComponents_Tests.debug.xcconfig */;
@@ -684,9 +669,41 @@
 			};
 			name = Debug;
 		};
-		588FF231AA1CDA52EC57701176AB7194 /* Debug */ = {
+		57A5662BBF41AAEED8CA1315082A639C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2160B22F568B8852E54D73199886E903 /* WKFunComponents.xcconfig */;
+			baseConfigurationReference = C8EF9DC788DE4A84F9FE84ABDB2FC45F /* WKFunComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKFunComponents/WKFunComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKFunComponents/WKFunComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKFunComponents/WKFunComponents.modulemap";
+				PRODUCT_MODULE_NAME = WKFunComponents;
+				PRODUCT_NAME = WKFunComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A98130546C2EEB6F2E4A1E055485429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EF9DC788DE4A84F9FE84ABDB2FC45F /* WKFunComponents.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WKFunComponents";
@@ -699,22 +716,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
-		};
-		726C173FF96EDD952D0C8A96A1AE82E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2160B22F568B8852E54D73199886E903 /* WKFunComponents.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WKFunComponents";
-				INFOPLIST_FILE = "Target Support Files/WKFunComponents/ResourceBundle-WKFunComponents-WKFunComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = WKFunComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		78AE13A92E5925009EC6B335C9884B05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -747,6 +748,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8817AF4F7F42E919144D54D1A486684D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EF9DC788DE4A84F9FE84ABDB2FC45F /* WKFunComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WKFunComponents";
+				INFOPLIST_FILE = "Target Support Files/WKFunComponents/ResourceBundle-WKFunComponents-WKFunComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = WKFunComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -874,6 +891,37 @@
 			};
 			name = Debug;
 		};
+		B779B75FED714C548140ECB88EFD60EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EF9DC788DE4A84F9FE84ABDB2FC45F /* WKFunComponents.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKFunComponents/WKFunComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKFunComponents/WKFunComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKFunComponents/WKFunComponents.modulemap";
+				PRODUCT_MODULE_NAME = WKFunComponents;
+				PRODUCT_NAME = WKFunComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E749AF3B0F82B8EA4E64C73576B083E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74CC50F88D976B8C017CD759C9683850 /* Pods-WKFunComponents_Example.release.xcconfig */;
@@ -908,54 +956,23 @@
 			};
 			name = Release;
 		};
-		F304BD162439F25E52AAA1D64AB53616 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2160B22F568B8852E54D73199886E903 /* WKFunComponents.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WKFunComponents/WKFunComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WKFunComponents/WKFunComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WKFunComponents/WKFunComponents.modulemap";
-				PRODUCT_MODULE_NAME = WKFunComponents;
-				PRODUCT_NAME = WKFunComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A822DD9CDCA1DAF8184258CCCC60551 /* Build configuration list for PBXNativeTarget "WKFunComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F304BD162439F25E52AAA1D64AB53616 /* Debug */,
-				0A23B0DF27B1F8D12A3D94147275C146 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA9D4AB5AAA35615206600B8EE50C12 /* Build configuration list for PBXNativeTarget "WKFunComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B779B75FED714C548140ECB88EFD60EC /* Debug */,
+				57A5662BBF41AAEED8CA1315082A639C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -969,20 +986,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AC869F83C62430A3CDC4B8CF1DC3D00A /* Build configuration list for PBXNativeTarget "WKFunComponents-WKFunComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A98130546C2EEB6F2E4A1E055485429 /* Debug */,
+				8817AF4F7F42E919144D54D1A486684D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D1EB7741A451B5D2AA746746E83A5334 /* Build configuration list for PBXNativeTarget "Pods-WKFunComponents_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5056ABC35C347D3BBFE25463542ADEAF /* Debug */,
 				78AE13A92E5925009EC6B335C9884B05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F46591A841BE21012A3009677181B82F /* Build configuration list for PBXNativeTarget "WKFunComponents-WKFunComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				588FF231AA1CDA52EC57701176AB7194 /* Debug */,
-				726C173FF96EDD952D0C8A96A1AE82E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
